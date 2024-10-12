@@ -52,7 +52,6 @@ const ProtectedContent = () => {
     };
 
 
-    // check subscription function
     checkSubscription();
   }, []);
 
