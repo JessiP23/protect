@@ -51,6 +51,8 @@ const ProtectedContent = () => {
       setIsLoading(false);
     };
 
+
+    // check subscription function
     checkSubscription();
   }, []);
 
