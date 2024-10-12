@@ -29,6 +29,8 @@ const ProtectedContent = () => {
   // router
   const router = useRouter();
 
+  // useffect
+
   useEffect(() => {
     const checkSubscription = async () => {
       // Replace this with your actual user authentication logic
