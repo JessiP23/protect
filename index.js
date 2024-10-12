@@ -90,7 +90,6 @@ const ProtectedContent = () => {
       <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md">
         <h1 className="text-2xl font-bold mb-4 text-purple-600">Protected Content</h1>
         <p>This is the protected content that only subscribers can see.</p>
-        {/* Add your protected content here */}
       </div>
     </div>
   );
