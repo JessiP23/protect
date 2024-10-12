@@ -1,7 +1,7 @@
 'use client'
 
 
-// react
+// react, usestate
 import React, { useState, useEffect } from 'react';
 
 // useRouter
