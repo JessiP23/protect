@@ -15,6 +15,9 @@ import { db } from '@/firebase';
 //lucide react
 import { Lock } from 'lucide-react';
 
+
+// protect account
+
 const ProtectedContent = () => {
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
