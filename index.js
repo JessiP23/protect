@@ -56,7 +56,6 @@ const ProtectedContent = () => {
     checkSubscription();
   }, []);
 
-  // loading
   if (isLoading) {
     return <div>Loading...</div>;
   }
