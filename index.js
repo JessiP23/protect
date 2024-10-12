@@ -36,7 +36,6 @@ const ProtectedContent = () => {
       // Replace this with your actual user authentication logic
       const userId = 'current-user-id';
 
-      // q
 
       const q = query(collection(db, 'subscriptions'), where('userId', '==', userId), where('status', '==', 'active'));
 
