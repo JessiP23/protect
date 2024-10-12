@@ -16,7 +16,6 @@ import { db } from '@/firebase';
 import { Lock } from 'lucide-react';
 
 
-// protect account
 
 const ProtectedContent = () => {
 
