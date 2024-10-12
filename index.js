@@ -3,8 +3,6 @@
 
 // react, usestate, useeffect
 import React, { useState, useEffect } from 'react';
-
-// useRouter
 import { useRouter } from 'next/navigation';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '@/firebase';
