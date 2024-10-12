@@ -40,7 +40,6 @@ const ProtectedContent = () => {
 
       const q = query(collection(db, 'subscriptions'), where('userId', '==', userId), where('status', '==', 'active'));
 
-      // query snapshot
       const querySnapshot = await getDocs(q);
 
 
