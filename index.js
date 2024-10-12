@@ -20,7 +20,6 @@ import { Lock } from 'lucide-react';
 
 const ProtectedContent = () => {
 
-  // subscription mode
   const [isSubscribed, setIsSubscribed] = useState(false);
 
   const [isLoading, setIsLoading] = useState(true);
