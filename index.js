@@ -26,7 +26,6 @@ const ProtectedContent = () => {
   // cargando
   const [isLoading, setIsLoading] = useState(true);
 
-  // router
   const router = useRouter();
 
 
