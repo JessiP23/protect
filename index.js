@@ -1,7 +1,5 @@
 'use client'
 
-
-// react, usestate, useeffect
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { collection, query, where, getDocs } from 'firebase/firestore';
