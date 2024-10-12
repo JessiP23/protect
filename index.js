@@ -9,8 +9,6 @@ import { useRouter } from 'next/navigation';
 
 // collection, query, where, getDocs
 import { collection, query, where, getDocs } from 'firebase/firestore';
-
-//firebase
 import { db } from '@/firebase';
 import { Lock } from 'lucide-react';
 
