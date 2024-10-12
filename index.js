@@ -67,6 +67,7 @@ const ProtectedContent = () => {
       <div className="min-h-screen bg-purple-600 flex flex-col items-center justify-center p-4">
         <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md text-center">
           <Lock className="mx-auto mb-4 text-purple-600" size={48} />
+          {/* title of subscription */}
           <h1 className="text-2xl font-bold mb-4 text-purple-600">Subscription Required</h1>
           <p className="mb-6">You need to subscribe to access this content.</p>
           <button
