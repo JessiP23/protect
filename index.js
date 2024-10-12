@@ -22,6 +22,8 @@ const ProtectedContent = () => {
 
   // subscription mode
   const [isSubscribed, setIsSubscribed] = useState(false);
+
+  // cargando
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
 
