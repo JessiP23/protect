@@ -44,7 +44,6 @@ const ProtectedContent = () => {
       const querySnapshot = await getDocs(q);
 
 
-      // subscribed mode changed
       setIsSubscribed(!querySnapshot.empty);
 
       setIsLoading(false);
