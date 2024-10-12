@@ -9,21 +9,15 @@ import { Lock } from 'lucide-react';
 
 
 const ProtectedContent = () => {
-
   const [isSubscribed, setIsSubscribed] = useState(false);
-
   const [isLoading, setIsLoading] = useState(true);
-
   const router = useRouter();
 
 
   useEffect(() => {
     const checkSubscription = async () => {
       const userId = 'current-user-id';
-
-
       const q = query(collection(db, 'subscriptions'), where('userId', '==', userId), where('status', '==', 'active'));
-
       const querySnapshot = await getDocs(q);
 
 
