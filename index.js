@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
-// collection, query
+// collection, query, where, 
 import { collection, query, where, getDocs } from 'firebase/firestore';
 
 //firebase
