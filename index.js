@@ -33,7 +33,6 @@ const ProtectedContent = () => {
 
   useEffect(() => {
     const checkSubscription = async () => {
-      // Replace this with your actual user authentication logic
       const userId = 'current-user-id';
 
 
