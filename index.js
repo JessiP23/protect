@@ -39,6 +39,8 @@ const ProtectedContent = () => {
       // q
 
       const q = query(collection(db, 'subscriptions'), where('userId', '==', userId), where('status', '==', 'active'));
+
+      // query snapshot
       const querySnapshot = await getDocs(q);
 
       setIsSubscribed(!querySnapshot.empty);
