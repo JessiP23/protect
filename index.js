@@ -82,7 +82,7 @@ const ProtectedContent = () => {
     );
   }
 
-  // frontend
+
   return (
     <div className="min-h-screen bg-purple-600 flex flex-col items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-md">
