@@ -70,6 +70,7 @@ const ProtectedContent = () => {
           {/* title of subscription */}
           <h1 className="text-2xl font-bold mb-4 text-purple-600">Subscription Required</h1>
           <p className="mb-6">You need to subscribe to access this content.</p>
+          {/* button to call subscribe */}
           <button
             onClick={() => router.push('/subscribe')}
             className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 transition-colors duration-200"
