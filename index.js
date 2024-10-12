@@ -61,7 +61,6 @@ const ProtectedContent = () => {
     return <div>Loading...</div>;
   }
 
-  // in the case of subscription
   if (!isSubscribed) {
     return (
       <div className="min-h-screen bg-purple-600 flex flex-col items-center justify-center p-4">
