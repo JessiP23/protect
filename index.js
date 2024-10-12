@@ -29,7 +29,6 @@ const ProtectedContent = () => {
   // router
   const router = useRouter();
 
-  // useffect
 
   useEffect(() => {
     const checkSubscription = async () => {
