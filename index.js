@@ -47,7 +47,6 @@ const ProtectedContent = () => {
       // subscribed mode changed
       setIsSubscribed(!querySnapshot.empty);
 
-      // loading to false
       setIsLoading(false);
     };
 
