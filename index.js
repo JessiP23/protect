@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '@/firebase';
+//lucide 
 import { Lock } from 'lucide-react';
 
 const ProtectedContent = () => {
