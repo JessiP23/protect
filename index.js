@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { collection, query, where, getDocs } from 'firebase/firestore';
+
+//firebase
 import { db } from '@/firebase';
 //lucide react
 import { Lock } from 'lucide-react';
