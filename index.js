@@ -19,6 +19,8 @@ import { Lock } from 'lucide-react';
 // protect account
 
 const ProtectedContent = () => {
+
+  // subscription mode
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
